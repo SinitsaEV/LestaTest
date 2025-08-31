@@ -1,11 +1,9 @@
-﻿using System.Collections.Generic;
-
-public abstract class BasePerson 
+﻿public abstract class BasePerson 
 {
-    private int _strength;  // сила
-    private int _agility;   // ловкость 
-    private int _stamina;   // Выносливость
-    private float _health;
+    protected int _strength;  // сила
+    protected int _agility;   // ловкость 
+    protected int _stamina;   // Выносливость
 
-    private List<BaseAbility> _abilities;
+    protected Health _health;
+    protected Weapon _weapon;
 }
