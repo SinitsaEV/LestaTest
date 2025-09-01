@@ -1,4 +1,4 @@
-public class StoneSkin : BaseAbility, IOnDefend
+public class StoneSkin : BaseAbility//, IDefenseAbility
 {
     
 }

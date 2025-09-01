@@ -1,4 +1,4 @@
-public class Shield : BaseAbility, IOnDefend
+public class Shield : BaseAbility//,IDefenseAbility
 {
 
 }
