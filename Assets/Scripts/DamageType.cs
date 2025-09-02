@@ -3,4 +3,5 @@
     Stabbing,     // Колющий
     Slashing,     // Рубящий
     Bludgeoning,  //Дробящий
+    Mage
 }

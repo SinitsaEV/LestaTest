@@ -7,17 +7,8 @@
     protected Health _health;
     protected Weapon _weapon;
 
-
-    DamageContext _damageContext;
-    private void TAst()
-    {
-        foreach(Damage damage in _damageContext.Damages)
-        {
-            if(damage.Type == DamageType.Slashing)
-            {
-                _damageContext.ModifyDamage(damage, damage.Value * 2);
-            }
-        }
-    }
+    public int Strength => _strength;
+    public int Agility => _agility;
+    public int Stamina => _stamina;    
 }
 
